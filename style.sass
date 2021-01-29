@@ -1,5 +1,15 @@
+$text-color-pink: #ee519f
+$text-color-gray: #b5b8bd
+$text-color-white: #ffffff
+
+    
+    
+    
+    
+    
 body 
     margin: 0
+    background-color: $text-color-white
     
 
 .first-section
@@ -24,57 +34,87 @@ body
     font-family: montserrat
     font-size: 80px
     font-weight: 600
-    color: white 
+    color: $text-color-white
 
 
     .bold
         font-weight: 800
 
-.text-2 
-    margin-top: 200px
-    font-family: montserrat
-    font-size: 70px
-    font-weight: 600
-    color: white    
+.hero-text-box
+
+    .text-1 
+        display: inline-block
+        margin-top: 200px
+        font-family: montserrat
+        font-size: 70px
+        font-weight: 600
+        color: $text-color-white   
+
+    .text-2 
+        float: right
+        margin-top: 60px
+        color: $text-color-white
+        text-align: center
+        font-family: montserrat
+        font-weight: 800
+        font-size: 250px
+        text-shadow: 0px 0px 30px $text-color-gray
+
+    .text-2::after 
+        content: "-"
+        position: absolute
+        top: 665px
+        right: 192px
+        color: $text-color-white
+        text-align: center
+        font-family: montserrat
+        font-weight: 400
+        font-size: 250px
+        text-shadow: 0px 0px 30px $text-color-gray
 
 .hero-img
     display: flex
     justify-content: space-between
 
-    .img-1, .img-2, .img-3
-        margin-top: 200px
-        width: 230px
-        height: 160px 
-        transform: scale(2)
-        border-radius: 30px
-        object-fit: cover
+    .box-1, .box-2, .box-3
+        
 
-    .img-2 
-        margin-top: 40px
+        .img-1, .img-2, .img-3 
+            margin-top: 100px
+            width: 430px
+            height: 320px 
+            border-radius: 30px
+            object-fit: cover
 
-.hero-img-text
-    display: flex
-    justify-content: space-between
-    color: white
+        .img-2
+            margin-top: -60px 
+            box-shadow: 0px 0px 40px $text-color-pink
+
+        .img-text-1, .img-text-2, .img-text-3
+            margin-top: 20px
+            color: $text-color-gray
+            text-align: center
+            font-family: montserrat
+            font-weight: 800
+            font-size: 30px
+
+        .img-text-1 
+            color: $text-color-pink
+            
+.hero-text-box2
+    width: 70%
+    float: right
+    text-align: left
     font-family: montserrat
-    font-weight: 800
+    font-weight: 500
     font-size: 30px
-    margin-top: 100px
+    color: #484f5f
 
-    .img-text-1 
-        margin-left: -40px
-        color: #ee519f
-    
-    .img-text-2 
-        margin-top: -155px
-        margin-right: 52px
-        text-align: center
-        color: #b5b8bd
-
-    .img-text-3 
-        margin-right: -42px
-        color: #b5b8bd
-
-
+    .text-1
+        text-align: left
+        font-family: montserrat
+        font-weight: 500
+        font-size: 30px
+        color: #484f5f
 
 
