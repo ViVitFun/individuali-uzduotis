@@ -11,7 +11,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 150vh;
+  height: 210vh;
 }
 
 .background-1 {
@@ -126,5 +126,137 @@ body {
   font-weight: 500;
   font-size: 30px;
   color: #484f5f;
+}
+
+.second-section {
+  width: 100%;
+  height: 207vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-section .text-2 {
+  width: calc(100% - 150px);
+  height: 400px;
+  float: left;
+  margin-top: 60px;
+  padding-left: 150px;
+  color: #ffffff;
+  font-family: montserrat;
+  font-weight: 800;
+  font-size: 250px;
+  text-shadow: 0px 0px 30px #b5b8bd;
+}
+
+.second-section .text-2::after {
+  content: "-";
+  position: relative;
+  bottom: -115px;
+  right: 320px;
+  color: #ffffff;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 400;
+  font-size: 250px;
+  text-shadow: 0px 0px 30px #b5b8bd;
+}
+
+.second-section .title {
+  padding-left: 150px;
+  margin-top: 200px;
+  color: #ee519f;
+  font-family: montserrat;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.second-section .gyd-text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-section .gyd-text-box .gydytojo-text-box1, .second-section .gyd-text-box .gydytojo-text-box2 {
+  margin-left: 150px;
+  width: 40%;
+  height: auto;
+}
+
+.second-section .gyd-text-box .img {
+  width: 94%;
+}
+
+.second-section .gyd-text-box .border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin-top: -60px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 60px #b5b8bd;
+          box-shadow: 0px 0px 60px #b5b8bd;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.second-section .gyd-text-box .border .name {
+  margin-top: 65px;
+  color: #ee519f;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.second-section .gyd-text-box .border .laipsnis {
+  width: 70%;
+  margin-top: 15px;
+  color: #b5b8bd;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 500;
+  font-size: 25px;
+  border-bottom: 2px solid #b5b8bd;
+  padding-bottom: 10px;
+}
+
+.second-section .gyd-text-box .border p {
+  width: 85%;
+  text-align: justify;
+  font-family: montserrat;
+  font-weight: 500;
+  font-size: 25px;
+  color: #484f5f;
+}
+
+.second-section .gydytojo-text-box1 .border {
+  -webkit-box-shadow: 0px 0px 60px #ee519f;
+          box-shadow: 0px 0px 60px #ee519f;
+}
+
+.second-section .gydytojo-text-box2 {
+  margin-top: -400px;
+  margin-right: -102px;
+}
+
+.asset {
+  width: 99%;
+  position: absolute;
+  left: 1px;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
