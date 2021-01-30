@@ -16,7 +16,7 @@ body
     display: flex
     justify-content: center
     width: 100%
-    height: 150vh
+    height: 210vh
 
 .background-1 
         z-index: -1
@@ -117,4 +117,112 @@ body
         font-size: 30px
         color: #484f5f
 
+.second-section
+    width: 100%
+    height: 207vh
+    display: flex
+    justify-content: center
 
+    .text-2
+        width: calc(100% - 150px)
+        height: 400px
+        float: left
+        margin-top: 60px
+        padding-left: 150px
+        color: $text-color-white
+        font-family: montserrat
+        font-weight: 800
+        font-size: 250px
+        text-shadow: 0px 0px 30px $text-color-gray
+
+    .text-2::after 
+        content: "-"
+        position: relative
+        bottom: -115px
+        right: 320px
+        color: $text-color-white
+        text-align: center
+        font-family: montserrat
+        font-weight: 400
+        font-size: 250px
+        text-shadow: 0px 0px 30px $text-color-gray
+
+    .title 
+        padding-left: 150px
+        margin-top: 200px
+        color: $text-color-pink
+        font-family: montserrat
+        font-weight: 800
+        font-size: 60px 
+
+    .gyd-text-box 
+        display: flex
+        justify-content: space-between
+
+        .gydytojo-text-box1, .gydytojo-text-box2
+            margin-left: 150px
+            width: 40%
+            height: auto
+
+        .img 
+            width: 94%
+
+        .border 
+            display: flex
+            flex-direction: column
+            align-items: center
+            width: 80%
+            margin-top: -60px
+            background-color: $text-color-white
+            box-shadow: 0px 0px 60px $text-color-gray
+            border-radius: 30px
+            padding: 10px
+
+            .name 
+                margin-top: 65px
+                color: $text-color-pink
+                text-align: center
+                font-family: montserrat
+                font-weight: 800
+                font-size: 30px
+
+            .laipsnis
+                width: 70%
+                margin-top: 15px
+                color: $text-color-gray
+                text-align: center
+                font-family: montserrat
+                font-weight: 500
+                font-size: 25px
+                border-bottom: 2px solid $text-color-gray
+                padding-bottom: 10px
+
+            p 
+                width: 85%
+                text-align: justify
+                font-family: montserrat
+                font-weight: 500
+                font-size: 25px
+                color: #484f5f
+
+    .gydytojo-text-box1
+
+        .border
+            box-shadow: 0px 0px 60px $text-color-pink
+ 
+    .gydytojo-text-box2
+        margin-top: -400px 
+        margin-right: -102px
+
+.asset 
+    width: 99%
+    position: absolute
+    left: 1px
+    z-index: -1
+        
+
+
+                
+        
+
+          
